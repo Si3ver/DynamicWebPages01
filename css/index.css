@@ -1,0 +1,536 @@
+body{  
+    background: url("../static/index/bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content{
+    position: relative;
+}
+.head{
+    height: 2.18rem;/*218*/
+    width: 21.6rem;
+    margin: 0;
+    padding:  0; 
+
+}
+.head .title{
+    height: 0.46rem;
+    font-size: 0rem;
+    text-align: center;
+}
+.head .time{
+    text-align: center;
+    color: #88abda;
+    font-size: 0.27rem;
+    letter-spacing:0.02rem;
+}
+.middle{
+    height: 11.82rem;
+    width: 21.6rem;
+    margin: 0;
+    padding:  0;
+    position: relative;
+}
+.left{
+    margin-left: 1.12rem;
+    width: 9.35rem;
+    display: inline-block;
+}
+.right{
+    width: 9.35rem;
+    position: absolute;
+    right: 1.12rem;
+    display: inline-block;
+}
+.left .main-content{
+    background: url("../static/index/bg_2_1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.right .main-content{
+    background: url("../static/index/bg_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.main-content{
+    cursor:pointer;
+    height: 8.49rem;
+    width: 7.79rem;
+    padding: 0.9rem 0.78rem 0rem 0.78rem;
+    font-size: 0rem;
+    position: relative;
+}
+.main-content:hover{  
+    width: 7.91rem;
+    margin-left: -0.06rem;
+    padding-left: 0.84rem;
+    height: 8.61rem;
+    margin-top: -0.06rem;
+    padding-top: 0.96rem;
+    margin-bottom:-0.32rem; 
+}
+.main-content .picID1{
+    position: absolute;left: -0.2rem;top: 32.7%;width: 1.21rem;height: 3.58rem;
+}
+.main-content .picID2{
+    position: absolute;right: -0.2rem;top: 32.7%;width: 1.21rem;height: 3.58rem;
+}
+
+/* left begin */
+.l-1{
+    background: url("../static/index/bg_left_1.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.79rem;
+    height: 1.65rem;
+    position: relative;
+}
+
+.l-1 .jz{
+    padding: 0.35rem 0.22rem 0rem 0.22rem;
+}
+.l-1-1{
+    text-align: center;
+    margin-left: 0.08rem;
+    width: 1.66rem;
+}
+.l-1-1 span.hd{
+    display: inline-block;
+    margin-top: 0.28rem;
+}
+.l-1-1 div{
+    display: inline-block;
+    margin-top: 0.18rem;
+}
+.l-1-2{
+    text-align: center;
+    margin-left: 0.94rem;
+    width: 1.66rem;
+}
+.l-1-3{
+    text-align: center;
+    margin-left: 0.94rem;
+    width: 1.66rem;
+}
+.l-1-3 span.hd{
+    display: inline-block;
+    margin-top: 0.28rem;
+}
+.l-1-3 div{
+    display: inline-block;
+    margin-top: 0.18rem;
+}
+.jiantou1{
+    background: url("../static/index/arrow_2.png") no-repeat;
+    background-size: 100% 100%;
+    height: 0.69rem;
+    width: 1.79rem;
+    position: absolute;
+    top: 0.71rem;
+    left: 1.53rem;
+}
+.jiantou2{
+    background: url("../static/index/arrow_1.png") no-repeat;
+    background-size: 100% 100%;
+    height: 0.2rem;
+    width: 1.8rem;
+    position: absolute;
+    top: 0.71rem;
+    left: 4.98rem;
+}
+.l-2{
+    background: url("../static/index/bg_left_2.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.79rem;
+    height: 1.06rem;
+    margin-top: -0.05rem;
+}
+.l-2{
+    padding-top: 0.14rem;
+}
+.l-2 .kh{
+    line-height: 0.21rem;
+    padding: 0.02rem  0.22rem 0 0.22rem;
+}
+.l-2-1{
+    text-align: center;
+    margin-left: 0.08rem;
+    margin-top: 0.1rem;
+    width: 1.66rem;
+}
+.l-2-1 span.hd{
+    display: inline-block;
+}
+.l-2-1 div{
+    display: inline-block;
+    margin-top: 0.05rem;
+}
+.l-2-2{
+    text-align: center;
+    margin-left: 0.94rem;
+    margin-top: 0.1rem;
+    width: 1.66rem;
+}
+.l-2-2 div{
+    display: inline-block;
+    margin-top: 0.05rem;
+}
+.l-2-3{
+    text-align: center;
+    margin-left: 0.94rem;
+    margin-top: 0.1rem;
+    width: 1.66rem;
+}
+.l-2-3 span.hd{
+    display: inline-block;
+}
+.l-2-3 div{
+    display: inline-block;
+    margin-top: 0.05rem;
+}
+.l-34{
+    width: 7.8rem;
+    height: 3.72rem;
+    clear: both;
+    margin-top: 0.08rem;
+}
+.l-34-1{
+    display: inline-block;
+    float: left;
+    height: 3.72rem;
+    width: 0.64rem;
+    background: url("../static/index/bg_left_34_1.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+.l-34-1 .lc{
+    padding:1.33rem 0.22rem; 
+}
+.l-34-all{
+    height: 3.72rem;
+    width: 7.14rem;
+    display: inline-block;
+    float: left;
+}
+.l-34-all .button{
+    margin-top: 0.08rem;
+    margin-left: 0.09rem;
+    display: inline-block;
+    float: left;
+}
+.l-3{
+    display: inline-block;
+    float: left;
+    margin-top: -0.14rem;
+}
+.l-3 .l-3-d{
+    background: url("../static/index/bg_left_3_2345.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.785rem;
+    height: 2rem;
+    padding-top: 0.26rem;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.l-4{
+    display: inline-block;
+    float: left;
+    margin-top: -0.1rem;
+}
+.l-4 .l-4-d{
+    display: inline-block;
+    float: left;
+    height: 1.46rem;
+    padding-top: 0.26rem;
+    text-align: center;
+}
+.l-4-2{
+    background: url("../static/index/bg_left_4_23.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.785rem;
+}
+.l-4-3{
+    background: url("../static/index/bg_left_4_23.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.785rem;
+}
+.l-4-4{
+    background: url("../static/index/bg_left_4_4.png") no-repeat;
+    background-size: 100% 100%;
+    width: 3.51rem;
+    margin-left: 0.05rem;
+}
+.l-34-all .l-4-4 .button{
+    margin-top: 0.08rem;
+    margin-left: 0.06rem;
+    float: left;
+    display: inline-block;
+}
+.l-5{
+    background: url("../static/index/bg_five.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.79rem;
+    height: 1.14rem;
+    margin-top: -0.05rem;
+    padding-top: 0.15rem;
+    text-align: center;
+}
+.l-5 .xx{
+    line-height: 0.21rem;
+    padding: 0.05rem  0.22rem 0 0.22rem;
+}
+.l-5-2{
+    margin-top: 0.1rem;
+    text-align: center;
+    margin-left: 0.08rem;
+    width: 1.66rem;
+}
+.l-5-2 div{
+    display: inline-block;
+    margin-top: 0.08rem;
+}
+.l-5-3{
+    text-align: center;
+    margin-left: 0.14rem;
+    margin-top: 0.1rem;
+    width: 1.66rem;
+}
+.l-5-3 span.hd{
+    display: inline-block;
+}
+.l-5-3 div{
+    display: inline-block;
+    margin-top: 0.08rem;
+}
+.l-5-4{
+    margin-top: 0.1rem;
+}
+.l-5-4 div{
+    margin-top: 0.08rem;  
+    
+}
+.l-5-4 .button{   
+    float: left;
+    display: inline-block;
+} 
+/* left end */
+/* right begin */
+.r-bg-blue{
+    background: url("../static/index/bg_blue.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.92rem;
+    height: 1.49rem;
+    margin-top: 0.08rem;
+}
+.r-bg-red{
+    background: url("../static/index/bg_red.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.92rem;
+    height: 1.49rem;
+    margin-top: 0.08rem;
+}
+.r-bg-yellow{
+    background: url("../static/index/bg_yellow.png") no-repeat;
+    background-size: 100% 100%;
+    width: 7.92rem;
+    height: 1.49rem;
+    margin-top: 0.08rem;
+}
+.r-1,.r-2,.r-3,.r-4,.r-5{
+    position: relative;
+}
+.right .gq{
+    padding:0.35rem 0.22rem 0rem 0.22rem;
+}
+.right .sz{
+    padding:0rem 0.22rem 0rem 0.22rem;
+}
+.right .zz{
+    padding:0.1rem 0.22rem 0rem 0.22rem;
+}
+.right .rr{
+    margin-left: 0.08rem;
+    width: 7.2rem;
+    padding-top: 0.14rem;
+}
+.right .rr .button{
+    display: inline-block;
+    float: left;
+    margin-right: 0.12rem;
+    margin-top: 0.12rem;
+}
+.right .rr-2{
+    margin-left: 0.08rem;
+    width: 7.2rem;
+}
+.right .rr-2 .button{
+    display: inline-block;
+    float: left;
+    margin-right: 0.12rem;
+    margin-top: 0.5rem;
+}
+.right .rb{
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.01rem;
+}
+/* right end */
+
+/* common */
+.data{
+    width: 9.35rem;
+    height: 1.60rem;
+    margin-top: -0.2rem;
+    clear: both;
+}
+.d-left{
+    width: 1.5rem;
+    height: 1.24rem;
+    font-size: 0.18rem;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-left: 1.76rem;
+    margin-top: 0.43rem;
+}
+.d-left div{
+    clear: both;
+    width: 1.7rem;
+    height: 0.21rem;
+    line-height: 0.18rem;
+}
+.d-left span{
+    display: inline-block;
+}
+.d-left .q{
+    display: inline-block;
+    width: 0.18rem;
+    height: 0.18rem;
+    float: left;
+}
+.d-left .w{
+    float: left;
+    margin-left: 0.12rem;
+    width: 0.3rem;
+}
+.d-left .e{
+    color: #00d2ff;
+    float: left;
+}
+.d-l-1 .w{
+    color: #00d2ff;
+}
+.d-l-1 .q{
+    background-color: #00d2ff;
+}
+.d-l-2 .w{
+    color: #5ae06d;
+}
+.d-l-2 .q{
+    background-color: #5ae06d;
+}
+.d-l-3 .w{
+    color: #fff100;
+}
+.d-l-3 .q{
+    background-color: #fff100;
+}
+.d-l-4 .w{
+    color: #c51b00;
+}
+.d-l-4 .q{
+    background-color: #c51b00;
+}
+#pie-doughnut-1,#pie-doughnut-2{
+    cursor: pointer;
+    float: left;
+    margin-left: 0.38rem;
+    width: 2.25rem;
+    height: 1.6rem;
+    display: inline-block;
+}
+.d-right{
+    float: left;
+    display: none;
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.d-right ul{
+    margin: 0rem;
+    padding: 0rem;
+}
+.d-right span{
+    /* letter-spacing: 0.05rem; */
+    margin-left: 0.06rem;
+}
+
+.button{
+    text-align: center;
+    width: 1.66rem;
+    height: 0.47rem;
+    text-align: left;  
+    line-height: 0.47rem;
+    vertical-align: middle;
+}
+.button .q1{
+    display: inline-block;
+    margin-left: 0.04rem;
+    margin-right: 0.04rem;
+    line-height: 0.47rem;
+    width: 0.25rem;
+}
+.button .q3{
+    text-align: center;
+    display: inline-block;
+    line-height: 0.2rem;
+    width: 1.26rem;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.button-blue{
+    background: url("../static/index/btn_blue.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow{
+    background: url("../static/index/btn_yellow.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red{
+    background: url("../static/index/btn_red.png") no-repeat;
+    background-size: 100% 100%;
+}
+.font-2{
+    font-size: 0.2rem;
+    color: #00deff;
+    width: 0.2rem;
+    line-height: 0.22rem;
+}
+.font-3{
+    font-size: 0.2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.font-4{
+    font-size: 0.14rem;
+    color: #03004c;
+    font-weight: bold;/* 
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); */
+}
+.font-5{
+    font-size: 0.14rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.bottom{
+    position: absolute;
+    left: 9.2rem;
+    bottom: 0.67rem;
+    background: url("../static/index/logo.png") no-repeat;   
+    background-size: 100% 100%;
+    width: 3.2rem;
+    height: 0.46rem;
+
+
+}

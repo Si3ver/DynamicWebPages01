@@ -1,0 +1,308 @@
+body{  
+    background: url("../static/third_ldgz/bg_3.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content{
+    position: relative;
+}
+.content-all{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.head{
+    height: 1.18rem;/*218*/
+    width: 21.6rem;
+    margin: 0;
+    padding:  0; 
+    position: relative;
+
+}
+.head .title{
+    font-size: 0rem;
+    color: #0075a9;
+    background: url('../static/third_1/top.png') no-repeat;
+    background-size: 100% 100%;
+    height: 1.18rem;
+    width: 8.2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.head .back{   
+    cursor:pointer;
+    position: absolute;
+    left: 1.22rem;
+    top: 0.09rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    width: 1.8rem;
+}
+.head .back-img{
+    display: inline-block;
+    background: url("../static/second/backbutton_normal.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.79rem;
+    height: 0.79rem;
+}
+.head .back-text,.head .close-text{
+    display: inline-block;
+    color: #66d5ff;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.head .back-text{ 
+    margin-left: 0.12rem;
+}
+.head .close{
+    cursor:pointer;
+    position: absolute;
+    right: 1.22rem;
+    top: 0.09rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    width: 1.8rem;
+}
+.head .close-img{
+    display: inline-block;
+    background: url("../static/second/closebutton_normal.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.78rem;
+    height: 0.82rem;
+}
+.head .close-text{
+    margin-right: 0.12rem;
+}
+/* main-content */
+.middle{
+    height: 11.82rem;
+    width: 21.6rem;
+    margin: 0.86rem 0 0 0;
+    padding:  0;
+    position: relative;
+}
+.left{
+    margin-left: 1.07rem;
+    width: 19.46rem;
+    display: none;
+    background: url("../static/third_ldgz/mubiaoguangkong_bg_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.right{
+    width: 19.46rem;
+    position: absolute;
+    right: 1.07rem;
+    display: none;
+    background: url("../static/third_ldgz/gongsizhili_bg_2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.left .main-content{
+    height: 9.22rem;
+    width: 19.44rem;
+    padding: 1.05rem 0.64rem 0.41rem 0.7rem;
+    font-size: 0rem;
+    position: relative;
+    display: inline-block;
+}
+/* 新闻导航（左栏） */
+.left .main-content .news_nav{
+    width: 6.93rem;
+    height: 9.22rem;
+    clear: both;
+    display: inline-block;
+    padding: 0 0.18rem 0rem 0rem;
+}
+/* 新闻内容（右栏） */
+.left .main-content .news_detail{
+    width: 11.19rem;
+    height: 9.22rem;
+    clear: both;
+    display: inline-block;
+}
+.right .main-content{
+    height: 9.22rem;
+    width: 18.12rem;
+    padding: 1.05rem 0.7rem 0.41rem 0.64rem;
+    font-size: 0rem;
+    position: relative;
+    display: inline-block;
+}
+/* 新闻内容（左栏） */
+.right .main-content .news_detail{
+    width: 11.19rem;
+    height: 9.22rem;
+    float: left;
+    clear: both;
+    display: inline-block;
+}
+/* 新闻导航（右栏） */
+.right .main-content .news_nav{
+    width: 6.75rem;
+    height: 9.22rem;
+    clear: both;
+    display: inline-block;
+    padding: 0 0rem 0rem 0.18rem;
+}
+
+/* 导航条内容 */
+.ldgz .text-content{
+    height: 9.22rem;
+    width: 6.75rem;
+    left: 0.33rem;
+    /* position: absolute; */
+    top: 0.7rem;
+    overflow-x: hidden;
+}
+.text-content #colee1{
+    width: 6.75rem;
+}
+.text-content #colee2{
+    width: 6.75rem;
+}
+.text-content #r-colee1{
+    width: 6.75rem;
+}
+.text-content #r-colee2{
+    width: 6.75rem;
+}
+.ldgz .text-content .p{
+    /* height: 0.72rem; */
+    position: relative;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+    margin-bottom: 0.14rem;
+    background: url("../static/third_ldgz/banner_bg.png") no-repeat;
+    background-size: 100% 100%;  
+    
+}
+.ldgz .text-content .star{
+    /* display: inline-block; */
+    display:none;
+    background: url("../static/third_ldgz/star.png") no-repeat;   
+    background-size: 100% 100%;
+    width: 0.15rem;
+    height: 0.13rem;
+    position: absolute;
+    top: 0.17rem;
+    left: 0rem;
+}
+.ldgz .text-content .t{
+    /* display: inline-block; */
+    /* width: 6.4rem; */
+    /* height: 0.22rem; */
+    position: relative;
+    white-space: nowrap;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    
+    font-size: 0.22rem;
+    line-height: 0.38rem;       /*行高 .p padding上下各预留0.8rem 以免字体被切割*/
+    color: #79d8fc;
+    vertical-align: middle;
+}
+/* .left .main-content .news_nav .news_tab{
+    background: url("../static/third_ldgz/banner_bg.png") no-repeat;   
+    background-size: 100% 100%;
+    width: 6.75rem;
+    height: 0.58rem;
+    position: relative;
+} */
+.ldgz{
+    cursor: pointer;
+}
+
+.left .main-content .news_detail .news_content{
+    background: url("../static/third_ldgz/mubiaoguankong_bg_left.png") no-repeat;  
+    background-size: 100% 100%;
+    width: 11.19rem;
+    height: 9.22rem;
+    position: relative;
+    display: inline-block;
+    /* margin-top: 0.15rem; */
+}
+.right .main-content .news_detail .news_content{
+    background: url("../static/third_ldgz/mubiaoguankong_bg_right.png") no-repeat;  
+    background-size: 100% 100%;
+    width: 11.19rem;
+    height: 9.22rem;
+    position: relative;
+    display: inline-block;
+    /* margin-top: 0.15rem; */
+}
+
+.detail-block{              /*亮点工作详细内容*/
+    width: 10.11rem;
+    height: 7.87rem;
+
+    padding: 0.75rem 0.22rem 0.6rem 0.86rem;
+    position: absolute;
+    display: inline-block;
+}
+
+.main-content .news_detail .news_content .news_text{
+    /* display: none; */
+    clear: both;
+    display: inline-block;
+    font-color: red;
+    font-size: 0.1rem;
+    /* position: relative; */
+    
+}
+
+.detail-block p {
+    font-size: 0.2rem;
+    line-height: 0.36rem;
+    text-indent: 0.4rem;
+    color: white;
+     -webkit-margin-before: 0.16em; 
+     -webkit-margin-after: 0.16em; 
+}
+
+.detail-block .news1,.detail-block .news2,.detail-block .news3,.detail-block .news4,.detail-block .news6,.detail-block .news7,.detail-block .news8,.detail-block .news9,.detail-block .news10,.detail-block .news11,.detail-block .news12, .detail-block .news13, .detail-block .news14, .detail-block .news15, .detail-block .news16, .detail-block .news17, .detail-block .news18{
+    display: none;
+}
+
+.imgSlides{
+    width: 9.79rem;
+    height: 3.24rem;
+    position: relative;
+    background: url("../static/third_ldgz/pictrue_frame.png") no-repeat;
+    background-size: 9.79rem, 3.24rem;
+    margin-bottom: 0.32rem;
+}
+
+/* .left .main-content .news_detail{
+    background: url("../static/third_ldgz/mubiaouangkong_bg_left.png") no-repeat;
+    background-size: 100% 100%;
+    width: 11.19rem;
+    height: 100%;
+    float:right;
+
+    clear: both;
+    display: inline-block;
+
+} */
+
+/* --footer-- */
+.bottom{
+    position: absolute;
+    left: 9.2rem;
+    bottom: 0.2rem;
+    background: url("../static/index/logo.png") no-repeat;   
+    background-size: 100% 100%;
+    width: 3.2rem;
+    height: 0.46rem;
+
+
+}
+
+/* 新闻详细图上方的框框 */
+/* .kuangkuang {
+    width: 9.79rem;
+    height: 3.24rem;
+} */
+.newsImg {
+    width: 9.47rem;
+    height: 2.93rem;
+    padding: 0.16rem 0.16rem 0.15rem 0.16rem;    
+}

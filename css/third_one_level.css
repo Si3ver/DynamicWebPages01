@@ -1,0 +1,746 @@
+body{  
+    background: url("../static/third_1/bg.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content{
+    position: relative;
+}
+.content-all{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content-1{
+    background: url('../static/third_1/ship/3.1.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-2{
+    background: url('../static/third_1/ship/3.2.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-3{
+    background: url('../static/third_1/ship/3.3.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-4{
+    background: url('../static/third_1/ship/3.4.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-5{
+    background: url('../static/third_1/ship/3.5.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-6{
+    background: url('../static/third_1/ship/3.6.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-7{
+    background: url('../static/third_1/ship/3.7.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-8{
+    background: url('../static/third_1/ship/3.8.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-9{
+    background: url('../static/third_1/ship/3.9.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-10{
+    background: url('../static/third_1/ship/3.10.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-11{
+    background: url('../static/third_1/ship/3.11.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-12{
+    background: url('../static/third_1/ship/3.12.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-13{
+    background: url('../static/third_1/ship/3.13.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-14{
+    background: url('../static/third_1/ship/3.14.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.content-15{
+    background: url('../static/third_1/ship/3.15.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.head{
+    height: 1.18rem;/*218*/
+    width: 21.6rem;
+    margin: 0;
+    padding:  0; 
+    position: relative;
+
+}
+.head .title{
+    font-size: 0rem;
+    color: #0075a9;
+    background: url('../static/third_1/top.png') no-repeat;
+    background-size: 100% 100%;
+    height: 1.18rem;
+    width: 8.2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.head .back{   
+    cursor:pointer;
+    position: absolute;
+    left: 1.22rem;
+    top: 0.09rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    width: 1.8rem;
+}
+.head .back-img{
+    display: inline-block;
+    background: url("../static/second/backbutton_normal.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.79rem;
+    height: 0.79rem;
+}
+.head .back-text,.head .close-text{
+    display: inline-block;
+    color: #66d5ff;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.head .back-text{ 
+    margin-left: 0.12rem;
+}
+.head .close{
+    cursor:pointer;
+    position: absolute;
+    right: 1.22rem;
+    top: 0.09rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    width: 1.8rem;
+}
+.head .close-img{
+    display: inline-block;
+    background: url("../static/second/closebutton_normal.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.78rem;
+    height: 0.82rem;
+}
+.head .close-text{
+    margin-right: 0.12rem;
+}
+.tab{
+    position: absolute;
+    background: url("../static/third_1/tab-blue.png") no-repeat;
+    background-size: 100% 100%;
+    width: 10.1rem;
+    height: 1.38rem;
+    top: 2.4rem;
+    left: 0.16rem;
+}
+.tab .h{
+    position: absolute;
+    font-size: 0.39rem;
+    color: #ffffff;
+    font-weight: bold;
+    left: 0.72rem;
+    top: 0.15rem;
+    width: 3.65rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.tab-long{
+    position: absolute;
+    background: url("../static/third_1/tab-blue-long.png") no-repeat;
+    background-size: 100% 100%;
+    width: 12.94rem;
+    height: 1.38rem;
+    top: 2.4rem;
+    left: 0.16rem;
+}
+.tab-long .h{
+    position: absolute;
+    font-size: 0.39rem;
+    color: #ffffff;
+    font-weight: bold;
+    left: 0.72rem;
+    top: 0.15rem;
+    width: 6.85rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+}
+.middle1{
+    height: 10rem;
+    width: 10rem;
+    top: 2.6rem;
+    left: -1rem;
+    padding: 0rem;
+    position: absolute;
+}
+
+.middle1 .text{
+    position: absolute;
+    font-size: 0.4rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    /* bottom: 4.5rem; */
+    left: 2.85rem;
+    top: 5rem;
+    letter-spacing: 0.01rem;
+    width: 4.26rem;
+    height: 1.4rem;
+}
+.middle1 .text .t1{
+    margin-right: 0.08rem;
+}
+.middle1 .text .t2{
+    
+}
+.middle1 .dial-plate{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.middle1 .dial-plate #picID1{
+    position: absolute;
+    width: 6.4rem;
+    height: 6.4rem;
+    left: 1.8rem;
+    top: 1.8rem;
+}
+.middle1 .icon{
+    position: absolute;
+    height: 0.85rem;
+    width: 2.55rem;
+    left: 3.7rem;
+    bottom: 5.2rem;
+}
+.middle1 .icon > div{
+    float: left;
+}
+.icon-b-l{
+    background: url("../static/third_2/icon_green.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.175rem;
+    display: inline-block;
+}
+.icon-y-l{
+    background: url("../static/third_2/icon_yellow.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.175rem;
+    display: inline-block;
+}
+.icon-r-l{
+    background: url("../static/third_2/icon_red.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0.175rem;
+    display: inline-block;
+}
+.icon-b-b{
+    background: url("../static/third_2/icon_green_big.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.85rem;
+    height: 0.85rem;
+    margin: 0rem;
+    display: none;
+}
+.icon-y-b{
+    background: url("../static/third_2/icon_yellow_big.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.85rem;
+    height: 0.85rem;
+    margin: 0rem;
+    display: none;
+}
+.icon-r-b{
+    background: url("../static/third_2/icon_red_big.png") no-repeat;
+    background-size: 100% 100%;
+    width: 0.85rem;
+    height: 0.85rem;
+    margin: 0rem;
+    display: none;
+}
+.middle2{
+    height: 6rem;
+    width: 12rem;
+    position: relative;
+    float: left;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+}
+.middle2 .c{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.middle2 .c>div{
+    position: absolute;
+}
+.middle2 .c1 .b1{
+    top: 2.33rem;
+    left: 5.5rem;
+}
+.middle2 .c2 .b1{
+    top: 0.8rem;
+    left: 4.8rem;
+}
+.middle2 .c2 .b2{
+    top: 2.33rem;
+    left: 5.55rem;
+}
+.middle2 .c3 .b1{
+    top: 0.8rem;
+    left: 4.8rem;
+}
+.middle2 .c3 .b2{
+    top: 2.33rem;
+    left: 5.55rem;
+}
+.middle2 .c3 .b3{
+    top: 3.8rem;
+    left: 4.4rem;
+}
+.middle2 .c4 .b1{
+    top: 0.8rem;
+    left: -0.2rem;
+}
+.middle2 .c4 .b2{
+    top: 3.8rem;
+    left: -0.3rem;
+}
+.middle2 .c4 .b3{
+    top: 0.8rem;
+    left: 7.8rem;
+}
+.middle2 .c4 .b4{
+    top: 3.8rem;
+    left: 7.4rem;
+}
+.middle2 .c5 .b1{
+    top: 0.8rem;
+    left: -0.2rem;
+}
+.middle2 .c5 .b2{
+    top: 2.33rem;
+    left: -0.3rem;
+}
+.middle2 .c5 .b3{
+    top: 3.8rem;
+    left: -0.3rem;
+}
+.middle2 .c5 .b4{
+    top: 0.8rem;
+    left: 7.8rem;
+}
+.middle2 .c5 .b5{
+    top: 2.33rem;
+    left: 8.55rem;
+}
+.middle2 .c6 .b1{
+    top: 0.8rem;
+    left: -0.2rem;
+}
+.middle2 .c6 .b2{
+    top: 2.33rem;
+    left: -0.3rem;
+}
+.middle2 .c6 .b3{
+    top: 3.8rem;
+    left: -0.3rem;
+}
+.middle2 .c6 .b4{
+    top: 0.8rem;
+    left: 7.8rem;
+}
+.middle2 .c6 .b5{
+    top: 2.33rem;
+    left: 8.55rem;
+}
+.middle2 .c6 .b6{
+    top: 3.8rem;
+    left: 7.4rem;
+}
+.xuhao{
+    font-size: 0.32rem;
+    text-align: center;
+}
+.wenzi{
+    text-align: center;
+    overflow: hidden;
+}
+.button-1{
+    cursor:pointer;
+    text-align: center;
+    width: 4.74rem;
+    height: 1.39rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-1:hover{   
+    padding: 0.07rem 0.03rem 0.2rem 0.1rem;
+    margin: -0.07rem -0.03rem -0.2rem -0.1rem;
+}
+.button-1 .xuhao{
+    float: right;
+    margin-top: 0.15rem;
+    margin-right: 0.6rem;
+    width: 0.9rem;
+}
+.button-1 .wenzi{
+    float: left;
+    margin: 0.2rem;
+    width: 2.8rem;
+    height: 0.8rem;
+    margin-top: 0.4rem;
+    line-height: 0.4rem;
+}
+.button-blue-1{
+    background: url("../static/third_1/btn_left_1_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-1:hover{
+    background: url("../static/third_1/btn_left_1_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-1{
+    background: url("../static/third_1/btn_left_1_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-1:hover{
+    background: url("../static/third_1/btn_left_1_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-1{
+    background: url("../static/third_1/btn_left_1_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-1:hover{
+    background: url("../static/third_1/btn_left_1_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-2{
+    cursor:pointer;
+    text-align: center;
+    width: 5.17rem;
+    height: 1.33rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-2:hover{   
+    padding: 0.07rem 0.18rem 0.2rem 0.07rem;
+    margin: -0.07rem -0.18rem -0.2rem -0.07rem;
+}
+.button-2 .xuhao{
+    float: right;
+    margin-top: 0.15rem;
+    margin-right: 1.4rem;
+    width: 1.1rem;
+}
+.button-2 .wenzi{
+    float: left;
+    /* margin: 0.2rem; */
+    width: 2.3rem;
+    height: 0.8rem;
+    margin-top: 0.33rem;
+    margin-left: 0.33rem;
+    line-height: 0.4rem;
+}
+.button-blue-2{
+    background: url("../static/third_1/btn_left_2_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-2:hover{
+    background: url("../static/third_1/btn_left_2_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-2{
+    background: url("../static/third_1/btn_left_2_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-2:hover{
+    background: url("../static/third_1/btn_left_2_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-2{
+    background: url("../static/third_1/btn_left_2_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-2:hover{
+    background: url("../static/third_1/btn_left_2_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-3{
+    cursor:pointer;
+    text-align: center;
+    width: 5.09rem;
+    height: 1.34rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-3:hover{   
+    padding: 0.06rem 0.17rem 0.21rem 0.09rem;
+    margin: -0.06rem -0.17rem -0.21rem -0.09rem;
+}
+.button-3 .xuhao{
+    float: right;
+    margin-top: 0.15rem;
+    margin-right: 1.1rem;
+    width: 0.9rem;
+}
+.button-3 .wenzi{
+    float: left;
+    margin: 0.2rem;
+    width: 2.8rem;
+    height: 0.8rem;
+    margin-top: 0.33rem;
+    line-height: 0.4rem;
+    margin-right: 0rem;
+}
+.button-blue-3{
+    background: url("../static/third_1/btn_left_3_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-3:hover{
+    background: url("../static/third_1/btn_left_3_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-3{
+    background: url("../static/third_1/btn_left_3_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-3:hover{
+    background: url("../static/third_1/btn_left_3_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-3{
+    background: url("../static/third_1/btn_left_3_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-3:hover{
+    background: url("../static/third_1/btn_left_3_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-4{
+    cursor:pointer;
+    text-align: center;
+    width: 4.74rem;
+    height: 1.39rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-4:hover{ 
+    padding: 0.07rem 0.07rem 0.2rem 0.06rem;
+    margin: -0.07rem -0.07rem -0.2rem -0.06rem;
+}
+.button-4 .xuhao{
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 0.3rem;
+    width: 0.9rem;
+}
+.button-4 .wenzi{
+    float: right;
+    /* margin: 0.2rem; */
+    width: 3rem;
+    height: 0.8rem;
+    margin-top: 0.36rem;
+    line-height: 0.4rem;
+    margin-right: 0.43rem;
+}
+.button-blue-4{
+    background: url("../static/third_1/btn_right_1_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-4:hover{
+    background: url("../static/third_1/btn_right_1_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-4{
+    background: url("../static/third_1/btn_right_1_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-4:hover{
+    background: url("../static/third_1/btn_right_1_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-4{
+    background: url("../static/third_1/btn_right_1_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-4:hover{
+    background: url("../static/third_1/btn_right_1_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-5{
+    cursor:pointer;
+    text-align: center;
+    width: 5.17rem;
+    height: 1.33rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-5:hover{   
+    padding: 0.07rem 0.18rem 0.2rem 0.07rem;
+    margin: -0.07rem -0.18rem -0.2rem -0.07rem;
+}
+.button-5 .xuhao{
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 0.1rem;
+    width: 1rem;
+}
+.button-5 .wenzi{
+    float: right;
+    /* margin: 0.2rem; */
+    width: 2.4rem;
+    height: 0.8rem;
+    margin-top: 0.33rem;
+    margin-right: 1.6rem;
+    line-height: 0.4rem;
+}
+.button-blue-5{
+    background: url("../static/third_1/btn_right_2_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-5:hover{
+    background: url("../static/third_1/btn_right_2_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-5{
+    background: url("../static/third_1/btn_right_2_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-5:hover{
+    background: url("../static/third_1/btn_right_2_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-5{
+    background: url("../static/third_1/btn_right_2_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-5:hover{
+    background: url("../static/third_1/btn_right_2_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-6{
+    cursor:pointer;
+    text-align: center;
+    width: 5.09rem;
+    height: 1.34rem;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #ffffff;
+}
+.button-6:hover{   
+    padding: 0.07rem 0rem 0.2rem 0.28rem;
+    margin: -0.07rem 0rem -0.2rem -0.28rem;
+}
+.button-6 .xuhao{
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 0.95rem;
+    width: 0.9rem;
+}
+.button-6 .wenzi{
+    float: right;
+    margin: 0.2rem;
+    width: 2.8rem;
+    height: 0.8rem;
+    margin-top: 0.33rem;
+    line-height: 0.4rem;
+    margin-left: 0rem;
+    margin-right: 0.4rem;
+}
+.button-blue-6{
+    background: url("../static/third_1/btn_right_3_green_normal.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-blue-6:hover{
+    background: url("../static/third_1/btn_right_3_green_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-yellow-6{
+    background: url("../static/third_1/btn_right_3_yellow_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-yellow-6:hover{
+    background: url("../static/third_1/btn_right_3_yellow_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.button-red-6{
+    background: url("../static/third_1/btn_right_3_red_normal.png") no-repeat;
+    background-size: 100% 100%;
+}
+.button-red-6:hover{
+    background: url("../static/third_1/btn_right_3_red_selected.png") no-repeat;   
+    background-size: 100% 100%;
+}
+.font-2{
+    font-size: 0.24rem;
+    color: #00deff;
+    width: 0.24rem;
+    line-height: 0.26rem;
+}
+.font-3{
+    font-size: 0.24rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.font-4{
+    font-size: 0.22rem;
+    color: #03004c;
+    font-weight: bold;/* 
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8); */
+}
+.font-5{
+    font-size: 0.22rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bottom{
+    position: absolute;
+    left: 9.2rem;
+    bottom: 0.2rem;
+    background: url("../static/index/logo.png") no-repeat;   
+    background-size: 100% 100%;
+    width: 3.2rem;
+    height: 0.46rem;
+
+
+}
